@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: ???? ??D.ggsk
-// Generated 2024-03-11T14:33:04
+// Generated 2024-03-11T14:39:21
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -5395,7 +5395,7 @@ function pano2vrSkin(player,base) {
 		el.ggMapId = 'FloorPlan01';
 		el.ggId="Map 1";
 		el.ggDx=0;
-		el.ggDy=-15;
+		el.ggDy=-10;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:0.75,sy:0.75,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_map ";
@@ -5403,13 +5403,13 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
-		hs+='height : 88%;';
-		hs+='left : calc(50% - ((88% + 0px) / 2) + 0px);';
+		hs+='height : 80%;';
+		hs+='left : calc(50% - ((80% + 0px) / 2) + 0px);';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((88% + 0px) / 2) - 15px);';
+		hs+='top : calc(50% - ((80% + 0px) / 2) - 10px);';
 		hs+='visibility : hidden;';
-		hs+='width : 88%;';
+		hs+='width : 80%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -5480,7 +5480,7 @@ function pano2vrSkin(player,base) {
 		el.ggMapId = 'FloorPlan02';
 		el.ggId="Map 2";
 		el.ggDx=0;
-		el.ggDy=-15;
+		el.ggDy=-10;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:0.75,sy:0.75,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_map ";
@@ -5488,13 +5488,13 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
-		hs+='height : 88%;';
-		hs+='left : calc(50% - ((88% + 0px) / 2) + 0px);';
+		hs+='height : 80%;';
+		hs+='left : calc(50% - ((80% + 0px) / 2) + 0px);';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((88% + 0px) / 2) - 15px);';
+		hs+='top : calc(50% - ((80% + 0px) / 2) - 10px);';
 		hs+='visibility : hidden;';
-		hs+='width : 88%;';
+		hs+='width : 80%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -9034,7 +9034,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._d_type.logicBlock_backgroundcolor();
 		me._d_type.onclick=function (e) {
-			player.openUrl("https:\/\/magical-kitsune-263021.netlify.app","_self");
+			player.openUrl("https:\/\/sparkly-bavarois-aaee52.netlify.app","_self");
 		}
 		me._d_type.onmouseover=function (e) {
 			me.elementMouseOver['d_type']=true;
